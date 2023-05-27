@@ -3,7 +3,7 @@ import React from "react";
 //style
 import style from '../styles/Coins.module.css';
 
-const Coin = ({ name, image, symbol, price, marketcap, priceChange }) => {
+const Coin = ({ name, image, symbol, price, priceChange, marketcap}) => {
   return (
     <div className={style.container}>
       <img src={image} alt={name} className={style.currency_img} />
