@@ -1,6 +1,6 @@
 .container {
-   margin-top: 80px;
-   border: 1px solid silver;
+  margin-top: 80px;
+  border: 1px solid silver;
   border-radius: 10px;
   width: fit-content;
   background-color: #2F3640;
@@ -8,7 +8,7 @@
 .search_box
 {
   position : absolute;
-  top : 40px;
+  top : 10%;
   left : 50%;
   transform : translate(-50%,-50%);
   background : #2F3640;
@@ -45,7 +45,7 @@
 }
 .search_box:hover > .search_txt
 {
-  width: 240px;
+  width: 245px;
   padding: 0 6px;
 }
 .search_box:hover > .search_btn
@@ -54,6 +54,5 @@
 }
 
 .searchIcon {
-    height: 20px;
-    width: 20px;
+    width: 90%;
 }
