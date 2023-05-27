@@ -7,10 +7,9 @@ import {getCoin} from "../services/api";
 import Loader from "./Loader";
 import Coin from "./Coin";
 
-//style
+//style and img
 import style from '../styles/Landing.module.css';
 import searchIcon from '../gif/zoom.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Landing = () => {
   const [coins, setCoin] = useState([]);
