@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./App.css";
+
+//component
 import Landing from "./component/Landing";
 
 function App() {
